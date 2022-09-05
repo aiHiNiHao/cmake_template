@@ -6,7 +6,7 @@ add_subdirectory(src)
 
 add_executable(Main main.cpp)
 
-target_link_libraries(Main test)
+target_link_libraries(Main computer)
 
 target_include_directories(Main PUBLIC src)
 
